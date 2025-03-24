@@ -29,7 +29,7 @@ df['year'] = years
 
 df = df[df['year'] != df['Año']]
 
-df['mes'] = df['Año'].apply(lambda x: meses.index(x) + 1)
+
 
 
 
